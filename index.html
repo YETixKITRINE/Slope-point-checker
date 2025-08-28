@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slope Point Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Slope Point Checker</h1>
+        <div id="problem">
+            <p id="point"></p>
+            <p id="equation"></p>
+        </div>
+        <button id="new-problem">New Problem</button>
+        <button id="reveal">Reveal Answer</button>
+        <div id="graph-container">
+            <!-- Graph is only shown when answer is revealed -->
+        </div>
+        <div id="answer-container" style="display:none;">
+            <h2>Correct Graph:</h2>
+            <canvas id="answer-graph" width="400" height="400"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
